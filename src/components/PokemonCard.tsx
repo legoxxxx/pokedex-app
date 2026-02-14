@@ -31,8 +31,7 @@ export default function PokemonCard({ pokemon, id, imageUrl }: PokemonCardProps)
     fairy: 'bg-pink-300',
   };
 
-  const bgColor =
-    'bg-gradient-to-br from-gray-100 to-gray-200 hover:from-gray-200 hover:to-gray-300';
+  const bgColor = 'bg-gradient-to-br from-gray-100 to-gray-200 hover:from-gray-200 hover:to-gray-300';
 
   return (
     <>
